@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@400;600;700&display=swap');
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f9e3e3 0%, #ffd6d6 100%);
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -13,12 +15,43 @@ body {
 }
 
 .header_text {
-    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+    font-weight: 900;
     color: #d32f2f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    animation: fadeInDown 1s ease-in-out;
 }
 
 .gif_container img {
     width: 100%; 
     max-width: 500px; 
-    height: auto; 
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeInUp 1s ease-in-out 0.3s both;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
