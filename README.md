@@ -56,5 +56,6 @@ If you use this code as a base for your own project, please give credit where it
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+<img width="3024" height="4032" alt="IMG_5663" src="https://github.com/user-attachments/assets/740bfea2-d89c-4c85-af5c-83ed400fcaa4" />
 
 Enjoy 💖
